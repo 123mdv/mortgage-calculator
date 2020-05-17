@@ -3,7 +3,6 @@ package com.maarten;
 import java.util.Scanner;
 
 public class Main {
-    //simple mortgage calculator
 
     public static void main(String[] args) {
         int principal = (int) Console.readNumber("Principal (1K - 1M)? ", 1000, 1_000_000);
